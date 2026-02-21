@@ -4,9 +4,9 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { useMessaging } from '../../contexts/MessagingContext';
-import { useApp } from '../../contexts/AppContext';
-import { useAuth } from '../../contexts/AuthContext';
+import { useMessaging } from '../contexts/MessagingContext';
+import { useApp } from '../contexts/AppContext';
+import { useAuth } from '../contexts/AuthContext';
 import { OrderStatus, UserRole } from '../types';
 import { showToast } from '../components/Toast';
 
