@@ -19,8 +19,8 @@ import {
   limit,
   getDocs
 } from 'firebase/firestore';
-import { useAuth } from '../../context/AuthContext';
-import { Message, Conversation, OrderStatus, UserRole } from '../types';
+import { useAuth } from '../context/AuthContext';
+import { Message, Conversation, OrderStatus, UserRole } from './types';
 import { showToast } from '../../components/Toast';
 
 interface MessagingContextType {

@@ -4,9 +4,9 @@
  */
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { useApp } from '../../../context/AppContext';
-import { useAuth } from '../../../context/AuthContext';
-import { OrderStatus } from '../../types';
+import { useApp } from '../../contexts/AppContext';
+import { useAuth } from '../../contexts/AuthContext';
+import { OrderStatus } from '../types';
 import { showToast } from '../../../components/Toast';
 
 interface BookingFlowProps {
