@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { OrderStatus } from '../../../types';
+import { OrderStatus } from '../../types';
 
 interface ActiveOrder {
   id: string;

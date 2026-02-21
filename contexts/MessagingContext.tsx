@@ -4,7 +4,7 @@
  */
 
 import React, { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react';
-import { db } from '../../firebaseConfig';
+import { db } from '../firebaseConfig';
 import { 
   collection, 
   query, 
@@ -20,7 +20,7 @@ import {
   getDocs
 } from 'firebase/firestore';
 import { useAuth } from '../../context/AuthContext';
-import { Message, Conversation, OrderStatus, UserRole } from '../../types';
+import { Message, Conversation, OrderStatus, UserRole } from '../types';
 import { showToast } from '../../components/Toast';
 
 interface MessagingContextType {

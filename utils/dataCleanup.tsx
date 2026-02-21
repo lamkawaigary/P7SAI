@@ -3,7 +3,7 @@
  * Phase 4: 數據歸檔 & 幽靈帳號清理
  */
 
-import { db } from '../../firebaseConfig';
+import { db } from '../firebaseConfig';
 import { 
   collection, 
   getDocs, 

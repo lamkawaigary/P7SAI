@@ -1,10 +1,10 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import P7SAITest from './src_new/pages/P7SAITest';
-import BookingTest from './src_new/pages/BookingTest';
-import DriverTest from './src_new/pages/DriverTest';
-import AdminTest from './src_new/pages/AdminTest';
-import DataCleanup from './src_new/pages/DataCleanup';
+import P7SAITest from './pages/P7SAITest';
+import BookingTest from './pages/BookingTest';
+import DriverTest from './pages/DriverTest';
+import AdminTest from './pages/AdminTest';
+import DataCleanup from './pages/DataCleanup';
 
 function App() {
   return (

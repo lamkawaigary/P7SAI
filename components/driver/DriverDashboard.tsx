@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { OrderStatus, UserRole } from '../../../types';
+import { OrderStatus, UserRole } from '../../types';
 
 interface DriverOrder {
   id: string;
